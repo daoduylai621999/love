@@ -12,6 +12,7 @@ const songName = {
 const music = [
   "Doi-Loi-Hoang-Dung",
   "you-are-my-everything",
+  "vi-yeu-la-nho",
   "tu-thich-thich-thanh-thuong-thuong",
   "bach-nguyet-quang",
   "ta-ten-truong-an",
