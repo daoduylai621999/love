@@ -18,11 +18,38 @@ const music = [
   "cham-cham-thich",
 ];
 
+const quotes = [
+  "I don’t need a burning sun and a cooling moon to show me my way. Just want you to hold me whenever I tumble.",
+  "Love does not consists of gazing at each other, but in looking together in the same direction",
+  "Bees love honey…people love money…but I LOVE YOU",
+  "Psychology says, you relaize you love someone when you want them to be happy, even if its not with you",
+  "When you are in love,you can’t fall asleep b’coz the reality is far better than your dreams.",
+  "When someone else happiness is your happiness, it’s called true love.",
+  "We fall in love by chance but we stay in love by choice.",
+  "The person who loves you truly is the most precious thing in your life...",
+  "My favourite place in this world is, “Next to You”",
+  "I didn’t choose you, My heart did.",
+  "If your heart was a prison, I would like to be sentenced for life",
+  "Love is the only game never postponed due to darkness.",
+  "We fight like a married couple, talk like best friends, and flirt like first loves..",
+  "I’m scared to look at u.. B’coz the more I do.. The more I fall in love with u…!!!",
+  "Life can give us lot of beautiful persons, But only one person is enough for a beautiful life…♥",
+  "Real boyfriend sees no other females, Because his eyes are only dedicated for his girl….",
+  "I have tested all sweet dishes but they are not sweet as my lover is… ",
+  "Everybody wants a happy ending but except me i want a never ending happiness with u",
+  "I kept my heart Strong like Iron but, I didn’t know that your heart is a Magnet.",
+  "With you the hours become minutes.",
+  "Love is the only thing which makes you cry even more u laugh",
+  "I shall love you till i take my last breathe on EARTH",
+];
 document.addEventListener(
   "DOMContentLoaded",
   function () {
+    const quote = document.getElementById("quote-content");
     const rootTime = document.querySelector("time");
     const audio = document.getElementById("audio");
+    let currtentQuote = Math.floor(Math.random() * quotes.length);
+    quote.innerHTML = quotes[currtentQuote];
     document.querySelector("anni").textContent = `${
       yourDate.getDate() > 9 ? yourDate.getDate() : "0" + yourDate.getDate()
     }-${
