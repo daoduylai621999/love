@@ -1,33 +1,21 @@
 const yourDate = new Date("Feb 27 2018 00:00:00 GMT+0700");
 const songName = {
-  "i-miss-you": "[Goblin OST] Soyou - I Miss You (FMV) [HAN-ROM-ENG]",
-  everytime: "[MV] CHEN(첸)XPunch(펀치) - Everytime l 태양의 후예 OST Part.2",
-  "this-love":
-    "[MV] DAVICHI(다비치) - This Love(이 사랑) l 태양의 후예 OST Part.3",
-  "beautiful-in-white": "Westlife - Beautiful in white",
-  "you-are-my-everything": "You Are My Everything",
   "Doi-Loi-Hoang-Dung": "Đôi lời - Hoàng Dũng",
-  "Meghan-Trainor-Like-Im-Gonna-Lose-You-ft-JohnLegend":
-    "Meghan Trainor Like Im Gonna Lose You ft JohnLegend",
+  "you-are-my-everything": "You Are My Everything",
   "vi-yeu-la-nho": "Vì yêu là nhớ",
   "tu-thich-thich-thanh-thuong-thuong": "Từ thích thích thành thương thương",
-  "the-playah": "SOOBIN X SLIMV - THE PLAYAH (Special Performance)",
-  "khong-sao-ma-em-day-roi":
-    "KHÔNG SAO MÀ EM ĐÂY RỒI - SUNI HẠ LINH ft. Lou Hoàng",
+  "bach-nguyet-quang": "Bạch nguyệt quang và nốt chu sa",
+  "ta-ten-truong-an": "Ta tên Trường An chàng tên Cố Lý",
+  "cham-cham-thich": "Chầm chậm thích em",
 };
 
 const music = [
-  "i-miss-you",
-  "everytime",
-  "this-love",
-  "you-are-my-everything",
-  "beautiful-in-white",
   "Doi-Loi-Hoang-Dung",
-  "Meghan-Trainor-Like-Im-Gonna-Lose-You-ft-JohnLegend",
-  "vi-yeu-la-nho",
+  "you-are-my-everything",
   "tu-thich-thich-thanh-thuong-thuong",
-  "the-playah",
-  "khong-sao-ma-em-day-roi",
+  "bach-nguyet-quang",
+  "ta-ten-truong-an",
+  "cham-cham-thich",
 ];
 
 document.addEventListener(
