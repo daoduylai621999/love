@@ -108,6 +108,7 @@ h1 {
   grid-column: span 3;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  height: fit-content;
 }
 
 #clock-box #clock {
