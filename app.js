@@ -87,12 +87,11 @@ document.addEventListener(
         htmlRender += `<div class="song-name-container" id=${music[index]}>
         ${
           index === currentSong
-            ? `<img id="dvd-icon-spin" src="./img/couple.jpg"/>`
+            ? `<img id="dvd-icon-spin" src="./img/couple.jpg"/>    <p>
+              ${index === currentSong ? `<strong>${item}</strong>` : item}
+            </p>`
             : ""
         }
-            <p>
-              ${index === currentSong ? `<strong>${item}</strong>` : item}
-            </p>
         </div>
         `;
       });
