@@ -148,7 +148,7 @@ time {
 }
 
 #heart {
-  grid-column: span 2;
+  grid-column: span 12;
   display: grid;
   grid-template-rows: 2;
   font-size: 44px;
